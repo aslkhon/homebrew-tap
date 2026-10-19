@@ -1,6 +1,6 @@
 cask "lookout" do
-  version "0.1.9"
-  sha256 "2dc8b10c0b82730547fa5d4303fc237c7854efb783bceb679d02cb4a05b43d02"
+  version "0.1.10"
+  sha256 "3730075db0074896a6999bab65e2c9070801f1ff3bbccce90755160d414e4d57"
 
   url "https://github.com/aslkhon/lookout/releases/download/v#{version}/Lookout-#{version}.zip"
   name "Lookout"
@@ -12,6 +12,7 @@ cask "lookout" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "Lookout.app"
