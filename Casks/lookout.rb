@@ -1,6 +1,6 @@
 cask "lookout" do
-  version "0.1.11"
-  sha256 "f16a999925065b1976539e5696c3f64cbabdfac151d3eac08a4af78025201278"
+  version "0.1.12"
+  sha256 "61e21b580f83541ae58a740a61ffee6d903b426c912e1c5d2ca9d03af6a9ffe7"
 
   url "https://github.com/aslkhon/lookout/releases/download/v#{version}/Lookout-#{version}.zip"
   name "Lookout"
